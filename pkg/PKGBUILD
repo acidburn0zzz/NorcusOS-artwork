@@ -24,5 +24,5 @@ package() {
 	cp -r "NorcuxOS-logo.svg" "NorcuxOS-logo-alt.svg" "NorcuxOS-logo.png" "NorcuxOS-logo-alt.png" "${pkgdir}/usr/share/about-distro/"
 	
 	mkdir -p "${pkgdir}/usr/share/wallpapers/"
-	cp -r "NorcuxOS-background.svg" "${pkgdir}/usr/share/wallpapers/"
+	cp -r "NorcuxOS-background.png" "${pkgdir}/usr/share/wallpapers/"
 }
