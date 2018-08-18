@@ -1,0 +1,28 @@
+# Maintainer: Norcux OS Team
+
+pkgname=norcuxos-artwork
+pkgver=0.1
+pkgrel=1
+pkgdesc="The Norcux OS artwork"
+arch=('any')
+url="https://github.com/NorcuxOS/artwork"
+license=('GPL3')
+depends=()
+#makedepends=()
+#checkdepends=()
+#optdepends=()
+#options=()
+source=("${url}/archive/$pkgver.tar.gz")
+md5sums=('SKIP')
+validpgpkeys=()
+
+
+package() {
+	cd  "${srcdir}/artwork-${pkgver}/"
+	
+	mkdir -p "${pkgdir}/usr/share/about-distro/"
+	cp -r "NorcuxOS-logo.svg" "NorcuxOS-logo-alt.svg" "NorcuxOS-logo.png" "NorcuxOS-logo-alt.png" "${pkgdir}/usr/share/about-distro/"
+	
+	mkdir -p "${pkgdir}/usr/share/wallpapers/"
+	cp -r "NorcuxOS-background.svg" "${pkgdir}/usr/share/wallpapers/"
+}
