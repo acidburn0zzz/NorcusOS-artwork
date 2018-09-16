@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="128"
-   height="128"
-   viewBox="0 0 33.866666 33.866668"
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933333"
    version="1.1"
    id="svg8">
   <defs
@@ -41,37 +41,38 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-263.13332)">
+     transform="translate(0,-280.06665)">
     <circle
-       style="opacity:1;vector-effect:none;fill:#12272d;fill-opacity:1;stroke:none;stroke-width:8.92625618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#12272d;fill-opacity:1;stroke:none;stroke-width:4.46312857;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path1380"
-       cx="-16.933334"
-       cy="-280.06665"
+       cx="-8.4666681"
+       cy="-288.53333"
        transform="scale(-1)"
-       r="16.668751" />
+       r="8.3343763" />
     <circle
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00e0e8;stroke-width:1.59082425;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00e0e8;stroke-width:0.79541218;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path1380-3"
-       cx="-16.933334"
-       cy="-280.06668"
+       cx="-8.4666681"
+       cy="-288.53336"
        transform="scale(-1)"
-       r="16.13792" />
+       r="8.0689602" />
     <g
        aria-label="N"
-       transform="scale(1.0986301,0.91022447)"
+       transform="matrix(0.54931508,0,0,0.45511226,9.2387194e-7,148.5)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.10763931px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#00e0e8;fill-opacity:0.99215686;stroke:none;stroke-width:0.72769088"
        id="text1399">
       <path
          d="m 7.4592894,297.07986 h 3.8658586 l 9.408817,17.75168 v -17.75168 h 2.785692 v 21.21958 h -3.865859 l -9.408817,-17.75168 v 17.75168 H 7.4592894 Z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill#00e0e8;fill-opacity:0.99215686;stroke-width:0.72769088"
-         id="path817" />
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill-opacity:0.99215686;stroke-width:0.72769088"
+         id="path817"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>

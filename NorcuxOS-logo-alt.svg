@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="150"
-   height="150"
-   viewBox="0 0 39.687499 39.687502"
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933333"
    version="1.1"
    id="svg8">
   <defs
@@ -41,25 +41,27 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer2">
+     id="layer2"
+     transform="translate(0,-22.754167)">
     <path
-       style="opacity:1;vector-effect:none;fill:#12272d;fill-opacity:1;stroke:none;stroke-width:2.03372502;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 2.1039667,-2.3162782e-8 H 37.583533 C 38.749131,-2.3162782e-8 39.6875,0.93836913 39.6875,2.1039667 V 37.583533 c 0,1.165598 -0.938369,2.103967 -2.103967,2.103967 H 2.1039667 C 0.93836915,39.6875 0,38.749131 0,37.583533 V 2.1039667 C 0,0.93836913 0.93836915,-2.3162782e-8 2.1039667,-2.3162782e-8 Z"
-       id="rect3707" />
+       style="opacity:1;vector-effect:none;fill:#12272d;fill-opacity:1;stroke:none;stroke-width:0.86772269;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 0.89769247,22.754166 H 16.035641 c 0.497322,0 0.897693,0.400371 0.897693,0.897693 v 15.137948 c 0,0.497322 -0.400371,0.897693 -0.897693,0.897693 H 0.89769247 C 0.40037084,39.6875 0,39.287129 0,38.789807 V 23.651859 c 0,-0.497322 0.40037084,-0.897693 0.89769247,-0.897693 z"
+       id="rect3707"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-257.31249)">
+     transform="translate(0,-280.06666)">
     <g
        id="g3705"
-       transform="translate(2.9104159,-2.9104407)">
+       transform="matrix(0.42666667,0,0,0.42666667,1.2417775,169.0382)">
       <circle
          r="16.668751"
          transform="scale(-1)"
