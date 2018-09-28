@@ -1,7 +1,7 @@
 # Maintainer: Norcux OS Team
 
 pkgname=norcuxos-artwork
-pkgver=0.3
+pkgver=0.3.1
 pkgrel=1
 pkgdesc="The Norcux OS artwork"
 arch=('any')
