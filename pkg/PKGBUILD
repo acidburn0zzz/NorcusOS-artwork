@@ -1,7 +1,7 @@
 # Maintainer: Norcux OS Team
 
 pkgname=norcuxos-artwork
-pkgver=0.2.1
+pkgver=0.3
 pkgrel=1
 pkgdesc="The Norcux OS artwork"
 arch=('any')
@@ -27,7 +27,6 @@ package() {
 	mkdir -p "${pkgdir}/usr/share/about-distro/"
 	ln -s "/usr/share/icons/hicolor/scalable/apps/distributor-logo-norcuxos.svg" "${pkgdir}/usr/share/about-distro/NorcuxOS-logo.svg"
 	ln -s "/usr/share/icons/hicolor/scalable/apps/distributor-logo-norcuxos-alt.svg" "${pkgdir}/usr/share/about-distro/NorcuxOS-logo-alt.svg"
-	cp -r "NorcuxOS-logo.png" "NorcuxOS-logo-alt.png" "${pkgdir}/usr/share/about-distro/"
 	
 	mkdir -p "${pkgdir}/usr/share/wallpapers/"
 	cp -r "NorcuxOS-background.png" "${pkgdir}/usr/share/wallpapers/"
