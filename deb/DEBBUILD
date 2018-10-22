@@ -1,0 +1,29 @@
+maintainer="Norcux OS Team <NorcuxOS@protonmail.com>"
+pkgname=norcuxos-artwork
+pkgver=0.10
+pkgrel=1
+distribution="buster"
+urgency="medium"
+pkgdesc="Norcux OS artwork\nThis package contains the Norcux OS artwork."
+section="kde"
+priority="optional"
+arch=('all')
+url="https://github.com/NorcuxOS/artwork"
+depends=()
+source=("https://codeload.github.com/NorcuxOS/artwork/tar.gz/${pkgver}")
+
+package() {
+	cd  "${srcdir}"/artwork-${pkgver}/
+	
+	mkdir -p "${pkgdir}"/usr/share/icons/hicolor/scalable/apps/
+	mkdir -p "${pkgdir}"/usr/share/about-distro/
+	mkdir -p "${pkgdir}"/usr/share/wallpapers/
+	
+	cp -r NorcuxOS-logo.svg "${pkgdir}"/usr/share/icons/hicolor/scalable/apps/distributor-logo-norcuxos.svg
+	cp -r NorcuxOS-logo-alt.svg "${pkgdir}"/usr/share/icons/hicolor/scalable/apps/distributor-logo-norcuxos-alt.svg
+	
+	ln -s /usr/share/icons/hicolor/scalable/apps/distributor-logo-norcuxos.svg "${pkgdir}"/usr/share/about-distro/NorcuxOS-logo.svg
+	ln -s /usr/share/icons/hicolor/scalable/apps/distributor-logo-norcuxos-alt.svg "${pkgdir}"/usr/share/about-distro/NorcuxOS-logo-alt.svg
+	
+	cp -r NorcuxOS-background.png "${pkgdir}"/usr/share/wallpapers/
+}
